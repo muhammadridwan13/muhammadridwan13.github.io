@@ -285,10 +285,10 @@
   .education aside {
     border: solid 1px lightgray;
     width: 470px;
-    margin: 5px;
-    background-image: url(assets/background/bg-kertas.jpeg);
-    box-shadow: 2px 5px 5px 1px rgba(139, 134, 134, 0.5);
-    border-radius: 20px;
+    margin: 20px 0;
+    background-image: url(assets/background/bg-white.jpeg);
+    /* box-shadow: 2px 5px 5px 1px rgba(139, 134, 134, 0.5); */
+    /* border-radius: 20px; */
     /* background-color: whitesmoke; */
     border-radius: 2px;
     line-height: 25px;
@@ -392,6 +392,9 @@
     /* .menu-toggle input {
       opacity: 1;
     } */
+    .education aside {
+      margin: 5px;
+    }
   }
   @media screen and (max-width: 361px) {
     .quote {
