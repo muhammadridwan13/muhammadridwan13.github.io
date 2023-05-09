@@ -422,10 +422,9 @@
       margin: 5px;
     }
     iframe {
-      width: 350px;
+      width: 320px;
       height: 200px;
-      border: solid 1px #3F5765;
-
+      border: solid 1px lightgray;
     }
     .copyright {
       bottom: -250px;
