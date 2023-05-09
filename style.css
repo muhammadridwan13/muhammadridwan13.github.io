@@ -432,6 +432,9 @@
     .tidak-tau{
       display: none;
     }
+    .education aside {
+      border: solid 1px #3F5765;
+    }
   }
   @media screen and (max-width: 361px) {
     .quote {
