@@ -281,7 +281,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: auto;
+    /* height: 500px; */
   }
   .education aside {
     border: solid 1px lightgray;
@@ -293,6 +293,8 @@
     /* background-color: whitesmoke; */
     border-radius: 2px;
     line-height: 25px;
+    background-image: url(assets/background/pemandangan.jpeg);
+    background-size: cover;
   }
   .education aside h4, p {
     margin: 20px;
