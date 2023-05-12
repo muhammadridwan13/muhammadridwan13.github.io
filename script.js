@@ -21,3 +21,7 @@ menu2.addEventListener ('click', function(){
 })
 
 document.title = "mhmdriduan.13"
+
+const clickbait = () => {
+    alert('jangan lupa follow instagram aing ya!!!')
+}

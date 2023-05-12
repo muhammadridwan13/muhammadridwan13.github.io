@@ -403,8 +403,8 @@
       border: solid 1px lightgray;
     }
     .copyright {
-      bottom: -600px;
-      /* bottom: -250px; jika isi content hanya 3 */
+      /* bottom: -600px; */
+      bottom: -250px; 
     }
     .tidak-tau{
       display: block;
