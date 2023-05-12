@@ -403,10 +403,11 @@
       border: solid 1px lightgray;
     }
     .copyright {
-      bottom: -250px;
+      bottom: -600px;
+      /* bottom: -250px; jika isi content hanya 3 */
     }
     .tidak-tau{
-      display: none;
+      display: block;
     }
     .education aside {
       border: solid 1px #3F5765;
@@ -420,7 +421,6 @@
     .interest img {
       width: 225px;
       height: 175px;
-  
     }
     /* .name ul {
       display: none;
