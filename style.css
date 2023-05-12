@@ -407,7 +407,7 @@
       bottom: -250px; 
     }
     .tidak-tau{
-      display: block;
+      display: none;
     }
     .education aside {
       border: solid 1px #3F5765;
