@@ -19,3 +19,5 @@ menu1.addEventListener ('click', function(){
 menu2.addEventListener ('click', function(){
     nav.classList.toggle('slide')
 })
+
+document.title = "mhmdriduan.13"
