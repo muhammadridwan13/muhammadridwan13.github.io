@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    
     <title>I AM RIDWAN</title>
-
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,16 +27,16 @@
   </head>
   <body>
     <nav class="name">
-      <h2 class="notranslate" onclick="clickbait()">
-        <a href="#"
-          ><b>im<span>Wannn</span></b></a
+      <h2 class="notranslate" onclick="clickbait()" >
+        <a href="#" 
+          ><b data-aos="fade-right" data-aos-duration="1000">im<span>Wannn</span></b></a
         >
       </h2>
 
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#aboutme" class="tentangSaya">PROFILE</a></li>
-        <li><a href="#myeducation" class="sekolahSaya">MY EDUCATION</a></li>
+        <li data-aos="fade-left" data-aos-duration="1000"><a href="#">HOME</a></li>
+        <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"><a href="#aboutme" class="tentangSaya">PROFILE</a></li>
+        <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400"><a href="#myeducation" class="sekolahSaya">MY EDUCATION</a></li>
       </ul>
 
       <section class="menu-toggle">
@@ -47,7 +48,7 @@
     </nav>
 
     <nav class="social">
-      <ul>
+      <ul data-aos="fade-left" data-aos-duration="1000">
         <li>
           <a href="https://youtube.com/@mhmdriduan.13/" target="blank"
             ><i class="bi bi-youtube"></i
@@ -74,20 +75,22 @@
     </nav>
 
     <header>
-      <h1>Hello, i'm<br /><span>M Riduan</span><br />Wann</h1>
+      <h1 data-aos="fade-down" data-aos-duration="1000">Hello, i'm<br /><span>M Riduan</span><br />Wann</h1>
     </header>
 
     <div class="about" id="aboutme">
-      <h2>a little about me</h2>
+      <h2 data-aos="fade-down"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000">a little about me</h2>
       <br />
-      <p>
+      <p data-aos="fade-down"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="400">
         i'm a <span>vocational high school student</span> who likes to learn new
         things, and i don't like ignorance, i've learned quite a lot so far,
         although there are some that i still don't master, and now that i
         learning web development.
       </p>
       <br />
-      <table class="contact">
+      <table class="contact" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="600">
         <tr>
           <td>Name</td>
           <td>: Muhammad Riduan</td>
@@ -105,7 +108,8 @@
           <td>: mhmdrdwn13052005@gmail.com</td>
         </tr>
       </table>
-      <table class="programming">
+      <table class="programming" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="800">
         <tr>
           <td class="language">HTML & CSS</td>
           <td><hr /></td>
@@ -120,29 +124,29 @@
     </div>
 
     <div class="quote">
-      <blockquote class="quotes">
+      <blockquote class="quotes" data-aos="zoom-in" data-aos-duration="1000">
         <h2>"jangan jadi payung untuk orang yang menyukai hujan"</h2>
         <footer>~ Muhammad Riduan ~</footer>
       </blockquote>
     </div>
 
     <div class="interest">
-      <h2>i'm interested about</h2>
+      <h2 data-aos="fade-down" data-aos-duration="800">i'm interested about</h2>
       <div class="image">
-        <img src="assets/image/technology.jpg" />
-        <p><em>technology</em></p>
-        <p><em>gym</em></p>
-        <img src="assets/image/dumbel.jpg" />
-        <img src="assets/image/Game On.jpeg" />
-        <p><em>football</em></p>
-        <p>
+        <img src="assets/image/technology.jpg" data-aos="fade-right" data-aos-duration="1000" />
+        <p data-aos="flip-right" data-aos-duration="1000"><em>technology</em></p>
+        <p data-aos="flip-left" data-aos-duration="1000"><em>gym</em></p>
+        <img src="assets/image/dumbel.jpg" data-aos="fade-left" data-aos-duration="1000"/>
+        <img src="assets/image/Game On.jpeg" data-aos="fade-right" data-aos-duration="1000"/>
+        <p data-aos="flip-right" data-aos-duration="1000"><em>football</em></p>
+        <p data-aos="flip-left" data-aos-duration="1000">
           <em>graphic<br />design</em>
         </p>
-        <img src="assets/image/gdesign.jpg" />
-        <img src="assets/image/download.jpeg" />
-        <p><em>anime</em></p>
-        <p><em>zoro</em></p>
-        <img src="assets/image/Roronoa Zoro✨.jpeg" />
+        <img src="assets/image/gdesign.jpg" data-aos="fade-left" data-aos-duration="1000"/>
+        <img src="assets/image/download.jpeg" data-aos="fade-right" data-aos-duration="1000"/>
+        <p data-aos="flip-right" data-aos-duration="1000"><em>anime</em></p>
+        <p data-aos="flip-left" data-aos-duration="1000"><em>zoro</em></p>
+        <img src="assets/image/Roronoa Zoro✨.jpeg" data-aos="fade-left" data-aos-duration="1000"/>
       </div>
     </div>
 
@@ -230,6 +234,10 @@
       <p>&copy; M Riduan 2023 | All Right Reserved</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
 
