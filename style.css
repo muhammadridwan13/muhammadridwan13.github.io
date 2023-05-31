@@ -231,7 +231,7 @@
     color: whitesmoke;
   }
   .interest .image em {
-    display: inline-block;
+    display: block;
     min-width: 100px;
     background-color: #3F5765;
     border: solid 2px #3F5765;
