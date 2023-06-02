@@ -8,7 +8,8 @@
     scroll-behavior: smooth;
   }
   body {
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
   }
   div {
     min-height: 140px;
@@ -30,6 +31,7 @@
     box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
+    z-index: 9999;
   }
   .name ul {
     display: flex;
@@ -268,6 +270,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 30px;
   }
   .education aside {
     width: 470px;
@@ -404,7 +407,7 @@
     }
     .copyright {
       /* bottom: -600px; */
-      bottom: -250px; 
+      bottom: -270px; 
     }
     .tidak-tau{
       display: none;
