@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- gsap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js ">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/TextPlugin.min.js">
     <!-- linked -->   
   </head>
   <body>
@@ -271,7 +269,10 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.11/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
     <script>
+      gsap.registerPlugin(TextPlugin);
       gsap.from('.title-center', { duration: 2.5, ease: "back.out(1.7)", y: -500, opacity: 0, delay: 1.5 })
     </script>
   </body>

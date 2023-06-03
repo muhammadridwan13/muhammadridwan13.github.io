@@ -302,7 +302,7 @@
     text-align: center;
     background-color: #333;
     color: whitesmoke;
-    /* bottom: 0; */
+    /* bottom: -250px; */
   }
 
   iframe {
@@ -326,7 +326,7 @@
     height: 200px;
     margin-top: -90px;
   }
-
+  
   
   /* responsive */
   @media screen and (min-width: 720px) {
@@ -357,7 +357,7 @@
       display: none;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1000px) {
     .menu-toggle {
       display: flex;
     }
